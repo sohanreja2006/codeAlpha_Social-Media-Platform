@@ -1,0 +1,78 @@
+/* ============================================================
+   variables.css — Design tokens for Socially
+   ============================================================ */
+:root {
+  /* Backgrounds */
+  --color-bg-gradient: linear-gradient(135deg, #f0f0ff 0%, #f8f8ff 40%, #eef3ff 100%);
+
+  /* Brand */
+  --color-primary:       #6c3fc5;
+  --color-primary-light: #8b5cf6;
+  --color-primary-dark:  #5b21b6;
+  --color-secondary:     #4f8ef7;
+
+  /* Text */
+  --color-text-dark:  #1a1a2e;
+  --color-text-muted: #64748b;
+  --color-text-light: #94a3b8;
+
+  /* Glass */
+  --color-glass:        rgba(255, 255, 255, 0.65);
+  --color-glass-border: rgba(255, 255, 255, 0.4);
+  --color-glass-hover:  rgba(255, 255, 255, 0.80);
+  --glass-blur:         blur(16px);
+
+  /* Shadows */
+  --shadow-glass:    0 8px 32px rgba(108, 63, 197, 0.10);
+  --shadow-hover:    0 16px 48px rgba(108, 63, 197, 0.18);
+  --shadow-card:     0 4px 20px rgba(108, 63, 197, 0.08);
+  --shadow-inset:    inset 0 1px 2px rgba(0,0,0,0.04);
+
+  /* Radius */
+  --radius-card: 20px;
+  --radius-pill: 50px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+
+  /* Typography */
+  --font-main: 'Plus Jakarta Sans', sans-serif;
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+
+  /* Spacing */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+
+  /* Layout */
+  --sidebar-left-width:  240px;
+  --sidebar-right-width: 300px;
+  --feed-max-width:      680px;
+
+  /* Transitions */
+  --transition-fast:   0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow:   0.4s ease;
+
+  /* Z-index layers */
+  --z-base:    1;
+  --z-sticky:  100;
+  --z-modal:   1000;
+  --z-toast:   1100;
+  --z-overlay: 999;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--color-secondary) 0%, #6c63ff 100%);
+  --gradient-text: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  --gradient-cover: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
